@@ -1,4 +1,12 @@
 /* write your custom css for index page here */
+:not(i) {
+    font-family: Arial;
+}
+
+.shadow-special {
+    box-shadow: 2px 2px 5px 2px!important;
+}
+
 .nav-link {
     transition-property: background-color color !important;
     transition-duration: 350ms !important;
