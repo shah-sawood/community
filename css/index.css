@@ -1,1 +1,9 @@
 /* write your custom css for index page here */
+.nav-link {
+    transition-property: background-color color !important;
+    transition-duration: 350ms !important;
+}
+.nav-link:not(.active):hover {
+    color: var(--bs-white)!important;
+    background-color: var(--bs-success)!important;
+}
