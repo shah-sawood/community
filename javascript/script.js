@@ -1,1 +1,1 @@
-const tabs = document.querySelectorAll(".nav-link");
+// write your javascript for the whole project here
