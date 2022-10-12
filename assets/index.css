@@ -1,0 +1,12 @@
+body > .container-fluid:nth-child(1) {
+    background-image: url('images/collection.jpg');
+    background-blend-mode: normal;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: var(--bs-light)!important
+}
+
+body > div:nth-child(1) > main > div > div {
+    background-color: rgba(0, 0,0, 0.5);
+}
