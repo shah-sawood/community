@@ -10,3 +10,36 @@ body > .container-fluid:nth-child(1) {
 body > div:nth-child(1) > main > div > div {
     background-color: rgba(0, 0,0, 0.5);
 }
+nav{
+    background-color: green;
+    opacity: 1;
+}
+nav:hover{
+    background-color: rgb(0, 255, 191);
+    color: white;
+}
+#bex{
+    border: 20px;
+    background-color:green;
+    border-radius: 5px;
+    color: white;
+}
+#love{
+    
+    
+    
+    color:#002856;
+    
+    margin-top: 25px;
+    
+}
+#love:hover{
+    background-color: aqua;
+}
+#events{
+    color:#002856;
+    margin-left: 40px;
+}
+#emeka{
+    text-decoration: underline;
+}
