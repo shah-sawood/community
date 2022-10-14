@@ -14,3 +14,11 @@ body>div:nth-child(1)>main>div>div {
 * {
     font-family: Arial;
 }
+
+.card {
+    transition: scale 250ms linear;
+}
+
+.card:hover {
+    scale: 1.05;
+}
