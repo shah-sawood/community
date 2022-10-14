@@ -1,42 +1,16 @@
-body > .container-fluid:nth-child(1) {
+body>.container-fluid:nth-child(1) {
     background-image: url('images/collection.jpg');
     background-blend-mode: normal;
     background-size: cover;
     min-height: 100vh;
     background-repeat: no-repeat;
-    background-color: var(--bs-light)!important
+    background-color: var(--bs-light) !important
 }
 
-body > div:nth-child(1) > main > div > div {
-    background-color: rgba(0, 0,0, 0.5);
-}
-nav{
-    background-color: green;
-    opacity: 1;
+body>div:nth-child(1)>main>div>div {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-#bex{
-    border: 20px;
-    background-color:green;
-    border-radius: 5px;
-    color: white;
-}
-#love{
-    
-    
-    
-    color:#002856;
-    
-    margin-top: 25px;
-    
-}
-#love:hover{
-    background-color: aqua;
-}
-#events{
-    color:#002856;
-    margin-left: 40px;
-}
-#emeka{
-    text-decoration: underline;
+* {
+    font-family: Arial;
 }
