@@ -1,1 +1,2 @@
-# community
+# IMO community
+IMO community is a community for ...
