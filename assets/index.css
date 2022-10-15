@@ -11,6 +11,33 @@ body>div:nth-child(1)>main>div>div {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.nav-link.active {
+    font-weight: bold;
+}
+
+/*.nav-link:not([class^='bg-']) {}*/
+
+.nav-link:not(.active)::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width .3s;
+}
+
+.nav-link:not(.active):hover::after {
+    width: 100%;
+}
+
 * {
     font-family: Arial;
+}
+
+.card {
+    transition: scale 250ms linear;
+}
+
+.card:hover {
+    scale: 1.05;
 }
